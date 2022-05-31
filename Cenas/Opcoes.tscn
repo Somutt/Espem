@@ -1,0 +1,134 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://Scripts-C/Opcoes.gd" type="Script" id=1]
+[ext_resource path="res://Imagens/Backgrounds/background.png" type="Texture" id=2]
+[ext_resource path="res://Imagens/Grid 12.png" type="Texture" id=3]
+[ext_resource path="res://Imagens/Backgrounds/card opcoes.png" type="Texture" id=4]
+[ext_resource path="res://Fontes/FontGodot/Titulo Cena.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Fontes/FontGodot/Opcoes.tres" type="DynamicFont" id=6]
+[ext_resource path="res://Imagens/Objetos/Novel/balao fala.png" type="Texture" id=7]
+[ext_resource path="res://Imagens/Botoes/dragger_c.png" type="Texture" id=8]
+[ext_resource path="res://Imagens/Botoes/dragger.png" type="Texture" id=9]
+[ext_resource path="res://Imagens/Botoes/radio_check.png" type="Texture" id=10]
+[ext_resource path="res://Imagens/Botoes/radio_check_h.png" type="Texture" id=11]
+[ext_resource path="res://Imagens/Botoes/radio_uncheck.png" type="Texture" id=12]
+[ext_resource path="res://Imagens/Botoes/radio_uncheck_h.png" type="Texture" id=13]
+[ext_resource path="res://Imagens/Botoes/salvar.png" type="Texture" id=14]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 1920.0
+margin_bottom = 1080.0
+texture = ExtResource( 2 )
+
+[node name="Grid 12" type="TextureRect" parent="."]
+visible = false
+margin_right = 1920.0
+margin_bottom = 1080.0
+texture = ExtResource( 3 )
+
+[node name="Fundo Opções" type="TextureRect" parent="."]
+margin_left = 344.0
+margin_top = 128.0
+margin_right = 1448.0
+margin_bottom = 922.0
+rect_scale = Vector2( 1.116, 1 )
+texture = ExtResource( 4 )
+
+[node name="Opções" type="Label" parent="."]
+margin_left = 836.0
+margin_top = 192.0
+margin_right = 1084.0
+margin_bottom = 288.0
+custom_fonts/font = ExtResource( 5 )
+custom_colors/font_color = Color( 0.878431, 0.321569, 0.388235, 1 )
+text = "Opções"
+
+[node name="Texto Volume" type="Label" parent="."]
+margin_left = 500.0
+margin_top = 352.0
+margin_right = 661.0
+margin_bottom = 420.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Volume"
+
+[node name="Fundo Volume" type="TextureRect" parent="."]
+margin_left = 500.0
+margin_top = 436.0
+margin_right = 1609.0
+margin_bottom = 488.0
+rect_scale = Vector2( 0.83, 1.23 )
+texture = ExtResource( 7 )
+
+[node name="Volume" type="HSlider" parent="."]
+margin_left = 532.0
+margin_top = 452.0
+margin_right = 1388.0
+margin_bottom = 484.0
+mouse_default_cursor_shape = 6
+custom_icons/grabber_highlight = ExtResource( 8 )
+custom_icons/grabber = ExtResource( 9 )
+rounded = true
+
+[node name="Texto Tela" type="Label" parent="."]
+margin_left = 500.0
+margin_top = 564.0
+margin_right = 812.0
+margin_bottom = 632.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Modo de Tela"
+
+[node name="Tela Cheia" type="CheckBox" parent="."]
+margin_left = 500.0
+margin_top = 648.0
+margin_right = 834.0
+margin_bottom = 728.0
+mouse_default_cursor_shape = 2
+custom_icons/radio_checked = ExtResource( 10 )
+custom_icons/checked = ExtResource( 11 )
+custom_icons/radio_unchecked = ExtResource( 12 )
+custom_icons/unchecked = ExtResource( 13 )
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color_disabled = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color_hover_pressed = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color_hover = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color_pressed = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Tela Cheia"
+
+[node name="Janela" type="CheckBox" parent="."]
+margin_left = 974.0
+margin_top = 648.0
+margin_right = 1210.0
+margin_bottom = 728.0
+mouse_default_cursor_shape = 2
+custom_icons/radio_checked = ExtResource( 10 )
+custom_icons/checked = ExtResource( 11 )
+custom_icons/radio_unchecked = ExtResource( 12 )
+custom_icons/unchecked = ExtResource( 13 )
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color_disabled = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color_hover_pressed = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color_hover = Color( 0.0745098, 0.160784, 0.239216, 1 )
+custom_colors/font_color_pressed = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Janela"
+
+[node name="Salvar" type="TextureButton" parent="."]
+margin_left = 748.0
+margin_top = 785.0
+margin_right = 1171.0
+margin_bottom = 890.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 14 )
+
+[connection signal="value_changed" from="Volume" to="." method="_on_HSlider_value_changed"]
+[connection signal="toggled" from="Tela Cheia" to="." method="_on_Tela_Cheia_toggled"]
+[connection signal="toggled" from="Janela" to="." method="_on_Janela_toggled"]
+[connection signal="pressed" from="Salvar" to="." method="_on_Salvar_pressed"]

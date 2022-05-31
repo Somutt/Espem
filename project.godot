@@ -1,0 +1,78 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "TextureRect",
+"class": "Background_Dialogo",
+"language": "GDScript",
+"path": "res://Scripts-C/Novel/Background.gd"
+}, {
+"base": "Node",
+"class": "Char",
+"language": "GDScript",
+"path": "res://Scripts-C/Novel/Char.gd"
+}, {
+"base": "Control",
+"class": "Dialogo",
+"language": "GDScript",
+"path": "res://Scripts-C/Novel/Dialogo.gd"
+}, {
+"base": "TextureButton",
+"class": "Disciplina",
+"language": "GDScript",
+"path": "res://Scripts-C/Disciplina.gd"
+}, {
+"base": "Control",
+"class": "Inicio",
+"language": "GDScript",
+"path": "res://Scripts-C/Novel/Inicio.gd"
+}, {
+"base": "Node",
+"class": "LoadDialogo",
+"language": "GDScript",
+"path": "res://Scripts-C/Novel/LoadDialogo.gd"
+}, {
+"base": "Control",
+"class": "Mochila",
+"language": "GDScript",
+"path": "res://Scripts-C/Mochila.gd"
+} ]
+_global_script_class_icons={
+"Background_Dialogo": "",
+"Char": "",
+"Dialogo": "",
+"Disciplina": "",
+"Inicio": "",
+"LoadDialogo": "",
+"Mochila": ""
+}
+
+[application]
+
+config/name="Psico"
+run/main_scene="res://Cenas/MenuI.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+global="*res://Scripts-C/global.gd"
+Audio="*res://Cenas/Audio.tscn"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/resizable=false
+window/size/fullscreen=true
+window/stretch/mode="2d"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

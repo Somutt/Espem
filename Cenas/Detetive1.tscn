@@ -1,0 +1,126 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Scripts-C/Detetive1.gd" type="Script" id=1]
+[ext_resource path="res://Imagens/Backgrounds/Detetive/Cópia de Quadro01.png" type="Texture" id=2]
+[ext_resource path="res://Imagens/Grid 12.png" type="Texture" id=3]
+[ext_resource path="res://Imagens/Objetos/Detetive/fundo ícones.png" type="Texture" id=4]
+[ext_resource path="res://Cenas/MenuSup2.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Imagens/Objetos/Detetive/Cartaz.png" type="Texture" id=6]
+[ext_resource path="res://Imagens/Objetos/Detetive/fundo voltar e seguinte.png" type="Texture" id=7]
+[ext_resource path="res://Imagens/Botoes/seguinte.png" type="Texture" id=8]
+[ext_resource path="res://Imagens/Botoes/seguinte_c.png" type="Texture" id=9]
+[ext_resource path="res://Imagens/Botoes/seguinte_h.png" type="Texture" id=10]
+[ext_resource path="res://Cenas/Mochila.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Imagens/Backgrounds/caixa.png" type="Texture" id=12]
+[ext_resource path="res://Fontes/FontGodot/Titulo Disciplina.tres" type="DynamicFont" id=13]
+[ext_resource path="res://Fontes/FontGodot/Info Disciplina 2.tres" type="DynamicFont" id=14]
+[ext_resource path="res://Imagens/Botoes/nãofechar_c.png" type="Texture" id=15]
+[ext_resource path="res://Imagens/Botoes/nãofechar_h.png" type="Texture" id=16]
+
+[node name="Detetive1" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Grid 12" type="TextureRect" parent="."]
+visible = false
+margin_right = 1920.0
+margin_bottom = 1080.0
+texture = ExtResource( 3 )
+
+[node name="fundo ícones" type="TextureRect" parent="."]
+margin_left = 1272.0
+margin_top = 32.0
+margin_right = 2022.0
+margin_bottom = 145.0
+rect_scale = Vector2( 0.81, 1 )
+texture = ExtResource( 4 )
+
+[node name="Opcoes" parent="." instance=ExtResource( 5 )]
+
+[node name="Cartaz" type="TextureButton" parent="."]
+margin_left = 1090.18
+margin_top = 697.742
+margin_right = 3191.18
+margin_bottom = 2699.74
+rect_scale = Vector2( 0.1, 0.1 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 6 )
+expand = true
+
+[node name="Fundo S" type="TextureRect" parent="."]
+margin_left = 1724.0
+margin_top = 458.0
+margin_right = 1857.0
+margin_bottom = 680.0
+rect_scale = Vector2( 1.15, 1.15 )
+texture = ExtResource( 7 )
+
+[node name="Seguinte" type="TextureButton" parent="."]
+margin_left = 1756.0
+margin_top = 490.0
+margin_right = 2009.0
+margin_bottom = 968.0
+rect_scale = Vector2( 0.4, 0.4 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 9 )
+texture_hover = ExtResource( 10 )
+
+[node name="Mochila" parent="." instance=ExtResource( 11 )]
+
+[node name="Popup1" type="Popup" parent="."]
+visible = true
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Fundo" type="TextureRect" parent="Popup1"]
+margin_left = 619.565
+margin_top = 155.625
+margin_right = 1273.56
+margin_bottom = 827.625
+texture = ExtResource( 12 )
+
+[node name="Titulo" type="Label" parent="Popup1"]
+margin_left = 854.471
+margin_top = 179.116
+margin_right = 1023.47
+margin_bottom = 236.116
+custom_fonts/font = ExtResource( 13 )
+text = "CARTAZ"
+
+[node name="Imagem" type="TextureRect" parent="Popup1"]
+margin_left = 845.554
+margin_top = 244.981
+margin_right = 3216.55
+margin_bottom = 2504.98
+rect_scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 6 )
+
+[node name="Frase" type="Label" parent="Popup1"]
+margin_left = 656.67
+margin_top = 442.032
+margin_right = 1251.67
+margin_bottom = 682.032
+custom_fonts/font = ExtResource( 14 )
+text = "Este cartaz foi feito por alunos da psicologia em prol do protesto visando salvar o C.A. No cartaz contém as demandas de estudantes para melhorar a infraestrutura."
+autowrap = true
+
+[node name="Fechar" type="TextureButton" parent="Popup1"]
+margin_left = 741.561
+margin_top = 694.796
+margin_right = 1153.56
+margin_bottom = 782.796
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 15 )
+texture_hover = ExtResource( 16 )
+
+[connection signal="pressed" from="Cartaz" to="." method="_on_Cartaz_pressed"]
+[connection signal="pressed" from="Seguinte" to="." method="_on_Seguinte_pressed"]
+[connection signal="pressed" from="Popup1/Fechar" to="." method="_on_Fechar_pressed"]

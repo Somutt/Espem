@@ -1,0 +1,93 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Scripts-C/Menu2.gd" type="Script" id=1]
+[ext_resource path="res://Imagens/Backgrounds/background.png" type="Texture" id=2]
+[ext_resource path="res://Cenas/MenuSup2.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Imagens/Textos/jogos.png" type="Texture" id=4]
+[ext_resource path="res://Imagens/Textos/jogos over.png" type="Texture" id=5]
+[ext_resource path="res://Imagens/Textos/consultar disciplinas.png" type="Texture" id=6]
+[ext_resource path="res://Imagens/Textos/consultar disciplinas over.png" type="Texture" id=7]
+[ext_resource path="res://Imagens/Textos/modo história.png" type="Texture" id=8]
+[ext_resource path="res://Imagens/Textos/modo história over.png" type="Texture" id=9]
+[ext_resource path="res://Imagens/Botoes/ajuda.png" type="Texture" id=10]
+[ext_resource path="res://Imagens/Botoes/ajudaoOVER.png" type="Texture" id=11]
+[ext_resource path="res://Imagens/Backgrounds/ajuda menu 2.png" type="Texture" id=12]
+[ext_resource path="res://Imagens/Botoes/nãofechar.png" type="Texture" id=13]
+
+[node name="Menu2" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1880.0
+margin_bottom = -1040.0
+texture = ExtResource( 2 )
+
+[node name="Opcoes" parent="." instance=ExtResource( 3 )]
+
+[node name="Jogos" type="TextureButton" parent="."]
+margin_left = 841.0
+margin_top = 680.0
+margin_right = 1078.0
+margin_bottom = 745.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 4 )
+texture_hover = ExtResource( 5 )
+
+[node name="Disciplinas" type="TextureButton" parent="."]
+margin_left = 434.0
+margin_top = 400.0
+margin_right = 1486.0
+margin_bottom = 465.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 6 )
+texture_hover = ExtResource( 7 )
+
+[node name="Historia" type="TextureButton" parent="."]
+margin_left = 634.0
+margin_top = 540.0
+margin_right = 1286.0
+margin_bottom = 615.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 8 )
+texture_hover = ExtResource( 9 )
+
+[node name="Ajuda" type="TextureButton" parent="."]
+margin_left = 1134.0
+margin_top = 48.0
+margin_right = 1355.0
+margin_bottom = 269.0
+rect_scale = Vector2( 0.371, 0.371 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 10 )
+texture_hover = ExtResource( 11 )
+
+[node name="TelaAjuda" type="Popup" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="TelaAjuda"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.333333, 0.333333, 0.333333, 0.556863 )
+
+[node name="Ajuda" type="TextureRect" parent="TelaAjuda"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 12 )
+
+[node name="Fechar" type="TextureButton" parent="TelaAjuda"]
+margin_left = 746.548
+margin_top = 903.233
+margin_right = 1158.55
+margin_bottom = 991.233
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 13 )
+[connection signal="pressed" from="Jogos" to="." method="_on_Jogos_pressed"]
+[connection signal="pressed" from="Disciplinas" to="." method="_on_Disciplinas_pressed"]
+[connection signal="pressed" from="Historia" to="." method="_on_Historia_pressed"]
+[connection signal="pressed" from="Ajuda" to="." method="_on_Ajuda_pressed"]
+[connection signal="pressed" from="TelaAjuda/Fechar" to="." method="_on_Fechar_pressed"]

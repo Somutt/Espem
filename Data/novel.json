@@ -1,0 +1,2151 @@
+{
+  "1": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Finalmente, depois de muita luta consegui entrar no curso que tanto queria!",
+    },
+  },
+  "2": {
+    "rota": "",
+    "background": "bg_entrada.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Desço do ônibus e atravesso a Av. da Universidade para chegar no CH II. Tomara que eu não me perca hoje…",
+    },
+  },
+  "3": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Nossa, como aqui é colorido! Os alunos fizeram todas essas pinturas nas paredes?",
+    },
+  },
+  "4": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Opa, cuidado por onde anda!",
+    },
+  },
+  "5": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Perdão! Estava distraída, nem vi que você estava aqui.",
+    },
+  },
+  "6": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sem problemas. Por acaso é caloura também?",
+    },
+  },
+  "7": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sim, eu sou! Você também?",
+    },
+  },
+  "8": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sim. Estou meio perdida, então fiquei por aqui mesmo. Sabe onde vai ser nossa primeira aula? ",
+    },
+  },
+  "9": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Também estou perdida...",
+    },
+  },
+  "10": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Desculpa, esqueci de perguntar, mas qual o seu nome?",
+    },
+  },
+  "11": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sem problemas, o meu nome é [Pessoa], e o seu?",
+    },
+  },
+  "12": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Me chamo Nina, prazer.",
+    },
+  },
+  "13": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Olha, parece que estão chamando os novatos para aquela sala. Vamos lá?",
+    },
+  },
+  "14": {
+    "rota": "",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vamos!",
+    },
+  },
+  "15": {
+    "rota": "a",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Passei o dia todo com a Nina, pudemos ver mais sobre a universidade e conversar bastante no caminho. Descobri que temos bastantes coisas em comum!",
+    },
+  },
+  "16": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Além disso, fiquei muito feliz com a semana de oficinas e palestras que montaram para nós, me senti muito bem recebida e mais preparada para o curso!",
+    },
+  },
+  "17": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {},
+    "fala": {
+      "type": "t",
+      "fala": "[Uma semana depois]",
+    },
+  },
+  "18": {
+    "rota": "",
+    "background": "bg_corredor2.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Certo! Já fiz minha matrícula. Posso dizer que realmente sou estudante de Psicologia agora. haha",
+    },
+  },
+  "19": {
+    "rota": "",
+    "background": "bg_corredor2.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Acho que vou passar na cantina, ainda tenho um tempinho antes da aula começar.",
+    },
+  },
+  "20": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Tio, um cafézinho e um pedaço de bolo, por favor",
+    },
+  },
+  "21": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Esse bolo é tão bom...",
+    },
+  },
+  "22": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Olá, posso me sentar aqui?",
+    },
+  },
+  "23": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Claro! A vontade",
+    },
+  },
+  "24": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Você é caloura? Nunca te vi por aqui antes",
+    },
+  },
+  "25": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "a",
+      "fala": "Eu.../o/Sou caloura, confirmei minha matrícula hoje./o/Sou veterano, mas nunca venho aqui.",
+    },
+  },
+  "26": {
+    "rota": "a",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sim, eu sou caloura. Acabei de confirmar minha matrícula na secretaria.",
+    },
+  },
+  "27": {
+    "rota": "a",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Que legal. Qual o seu nome?",
+    },
+  },
+  "28": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": " Nem, sou veterana, só não apareço por aqui.",
+    },
+  },
+  "29": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Uma turista do primeiro semestre? Com esses materiais de estudo é difícil ser veterano.",
+    },
+  },
+  "30": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Droga, me descobriu...",
+    },
+  },
+  "31": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "E qual o seu nome, ``veterana``?",
+    },
+  },
+  "32": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Meu nome é [Pessoa], e o seu?",
+    },
+  },
+  "33": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "O meu é Gisele. Então, o que tá achando do curso?",
+    },
+  },
+  "34": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "É difícil de saber com tão pouco tempo, mas gostando muito até agora!",
+    },
+  },
+  "35": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Isso é bom. Gostar do curso que faz é importante.",
+    },
+  },
+  "36": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Com certeza.",
+    },
+  },
+  "37": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Está em que semestre, Gisele?",
+    },
+  },
+  "38": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Estou no 5° semestre.",
+    },
+  },
+  "39": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Nossa, você tem bastante tempo por aqui.",
+    },
+  },
+  "40": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Que isso, passa voando.",
+    },
+  },
+  "41": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Espero que sim... O ano começou tão devagar",
+    },
+  },
+  "42": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Nossa, olha a hora! Tenho que ir agora, minha aula está para começar.",
+    },
+  },
+  "43": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Tudo bem, [Pessoa]. Se precisar de alguma coisa é só me procurar no CA ou aqui na cantina.",
+    },
+  },
+  "44": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "CA? Onde ele fica?",
+    },
+  },
+  "45": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Centro Acadêmico. Fica naquele prédio amarelo do lado de fora do bloco, mas nós chamamos ele de Torrinha.",
+    },
+  },
+  "46": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sério? Tava curiosa do que faziam lá",
+    },
+  },
+  "47": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Agora já sabe. Pode ir lá sempre que quiser, é um canto para os alunos descontraírem.",
+    },
+  },
+  "48": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Mas infelizmente não dá para ficar muita gente lá...",
+    },
+  },
+  "49": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Ué, por quê?",
+    },
+  },
+  "50": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "A estrutura de lá tá bem frágil. Dizem que ela pode cair",
+    },
+  },
+  "51": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Cair?!",
+    },
+  },
+  "52": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Mas... se lá é tão perigoso assim, por que não ir para outro lugar?",
+    },
+  },
+  "53": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "A Torrinha não é um lugar qualquer, nela os alunos podem ser quem quiserem e falarem a vontade. Fora a própria história do espaço no curso.",
+    },
+  },
+  "54": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Não tem outro local assim no bloco.",
+    },
+  },
+  "55": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Entendo...",
+    },
+  },
+  "56": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Desculpa se a pergunta soou maldosa",
+    },
+  },
+  "57": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Não precisa ficar assim. Se tiver um tempo, tire uns minutos para conversar com quem vive lá, pode ouvir muita história legal.",
+    },
+  },
+  "58": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s"
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Tudo bem. Até mais, Gisele",
+    },
+  },
+  "59": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Até, [Pessoa]",
+    },
+  },
+  "60": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s"
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Até, [Pessoa]",
+    },
+  },
+  "61": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "O semestre avançou, mostrando que nem tudo são flores aqui na universidade."
+    },
+  },
+  "62": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Não imaginava que ia ter tanta coisa assim logo no primeiro semestre."
+    },
+  },
+  "63": {
+    "rota": "",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Mais um dia... Só queria que esse semestre acabasse logo."
+    },
+  },
+  "64": {
+    "rota": "",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "[Celular vibra]"
+    },
+  },
+  "65": {
+    "rota": "",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "O quê, sem aula agora?!"
+    },
+  },
+  "66": {
+    "rota": "",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Ah, nem posso voltar para casa agora, 10 horas já tenho aula de novo."
+    },
+  },
+  "67": {
+    "rota": "",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vai ser o jeito passar de manhã por aqui."
+    },
+  },
+  "68": {
+    "rota": "",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "a",
+      "fala": "Eu posso ir.../o/Ir para a cantina/o/Procurar um banco para estudar"
+    },
+  },
+  "69": {
+    "rota": "a",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Acho que vou para a cantina. Posso comer um pouco enquanto estudo para as próximas provas."
+    },
+  },
+  "70": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Certo, agora vou estudar um pouco."
+    },
+  },
+  "71": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "E aí! Como vai, [Pessoa]?"
+    },
+  },
+  "72": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Gisele! Tudo bom, e tu?"
+    },
+  },
+  "73": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vou indo, né. Tendo que conciliar o semestre com a bolsa, mas a gente desenrola."
+    },
+  },
+  "74": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Queria conseguir fazer isso… Só com as disciplinas desse semestre já estou sofrendo."
+    },
+  },
+  "75": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vai dar certo, quando você ver o semestre já vai ter acabado."
+    },
+  },
+  "76": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Obrigado, Gisele."
+    },
+  },
+  "77": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Desculpa a pergunta do nada, mas pode me contar mais sobre o CA? Fiquei curiosa depois daquele dia."
+    },
+  },
+  "78": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sem problemas! Mas é uma história bem longa..."
+    },
+  },
+  "79": {
+    "rota": "a",
+    "background": "bg_cantina2.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Pode contar, não estava fazendo nada demais."
+    },
+  },
+  "80": {
+    "rota": "a",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Gisele me falou mais sobre sua história. Foi bem legal ouvir o relato de uma veterana"
+    },
+  },
+  "81": {
+    "rota": "a",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Acho que pude aprender mais sobre o que a Torrinha significa para os outros."
+    },
+  },
+  "82": {
+    "rota": "b",
+    "background": "bg_corredor3.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Acho que vou procurar um banco para estudar, as provas já estão chegando."
+    },
+  },
+  "83": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Certo, vamos ver o material que o professor passou para estudar."
+    },
+  },
+  "84": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Olá, [Pessoa]. Como vai?"
+    },
+  },
+  "85": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Ah, olá Nina! Vou indo, e você?"
+    },
+  },
+  "86": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vou bem. Estudando para o quê?"
+    },
+  },
+  "87": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Estudando para Introdução a Filosofia, a prova tá chegando e estou com medo de tirar nota ruim."
+    },
+  },
+  "88": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Ah, ainda não estudei nada. Que dia é a prova mesmo?"
+    },
+  },
+  "89": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Nina, Nina, vai ficar de AF assim."
+    },
+  },
+  "90": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Que isso, vai dar certo."
+    },
+  },
+  "91": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sei..."
+    },
+  },
+  "92": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Ei, tem uma coisa que tou com curiosidade de perguntar para você."
+    },
+  },
+  "93": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vi que você anda bastante lá pela Torrinha... O que acha de lá?"
+    },
+  },
+  "94": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Lá é incrível! Já conversei com tanta gente legal lá, além do ambiente ser muito bom."
+    },
+  },
+  "95": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Por que tu não vai lá um dia desses?"
+    },
+  },
+  "96": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sim, quero ir lá qualquer dia. Só que hoje não dá."
+    },
+  },
+  "97": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Claro, por que você com certeza está concentrada nos estudos."
+    },
+  },
+  "98": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Ei! Eu só tava tirando uma dúvida."
+    },
+  },
+  "99": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sim, sim. Quer saber umas coisas bem legais que descobri na Torrinha?"
+    },
+  },
+  "100": {
+    "rota": "b",
+    "background": "bg_corredor1.jpg",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Claro!"
+    },
+  },
+  "101": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Várias semanas se passaram... Pude conversar mais com outros estudantes sobre a Torrinha e finalmente ir lá!"
+    },
+  },
+  "102": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Apesar de ficar com certo receio, todo mundo foi bem receptivo comigo. Foi uma experiência muito boa."
+    },
+  },
+  "103": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Além disso, Nina me apresentou outros espaços da Psicologia que são muito legais também."
+    },
+  },
+  "104": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Olá Gisele, tudo bom?"
+    },
+  },
+  "105": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Olá [Pessoa]."
+    },
+  },
+  "106": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Nada bem...  Postaram uma nota agora a pouco, anunciando que a Torrinha será fechada na próxima semana."
+    },
+  },
+  "107": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "O quê?! Mas por que fariam isso?"
+    },
+  },
+  "108": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Eles acham o ambiente inseguro demais para os alunos, mas simplesmente fechar é muito errado!"
+    },
+  },
+  "109": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sim… Não podemos fazer nada para evitar isso?"
+    },
+  },
+  "110": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sinceramente... Não consigo pensar em algo agora."
+    },
+  },
+  "111": {
+    "rota": "",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "a",
+      "fala": "Acho que podemos…/o/Fazer uma manifestação./o/Reunir todos e discutir"
+    },
+  },
+  "112": {
+    "rota": "a",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vamos nos manifestar! Eles precisam entender que esse espaço é importante para nós alunos!"
+    },
+  },
+  "113": {
+    "rota": "a",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Boa ideia! Mas também é importante divulgarmos a causa para que ela funcione."
+    },
+  },
+  "114": {
+    "rota": "a",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Podemos falar com o CA e quem sabe a coordenação, provavelmente eles não ficarão parados."
+    },
+  },
+  "115": {
+    "rota": "a",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Nina! Sim, é uma boa. Precisamos divulgar a ideia entre os alunos também."
+    },
+  },
+  "116": {
+    "rota": "a",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Falamos com o CA logo depois e uma assembleia geral foi marcada para dois dias depois."
+    },
+  },
+  "117": {
+    "rota": "a",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      },
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Felizmente muitos alunos compareceram!"
+    },
+  },
+  "118": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Que tal falar com o CA?"
+    },
+  },
+  "119": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Eles podem convocar uma assembleia para decidirmos o que fazer sobre isso."
+    },
+  },
+  "120": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Boa ideia, [Pessoa]!"
+    },
+  },
+  "121": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Aliás, é bom reunir todos o quanto antes, já que não temos muito tempo."
+    },
+  },
+  "122": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Sim! Agir é melhor do que ficar sem fazer nada numa situação dessas."
+    },
+  },
+  "123": {
+    "rota": "b",
+    "background": "bg_cantina1.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Com certeza!"
+    },
+  },
+  "124": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Na assembleia, além da manifestação em frente ao bloco, decidimos divulgar como a Torrinha se tornou importante para os alunos."
+    },
+  },
+  "125": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "E vamos fazer isso através de cartazes! Além claro de espalhar informações sobre o assunto nas redes sociais e o CA fazer uma nota contra essa decisão"
+    },
+  },
+  "126": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t",
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Estou muito esperançosa de que vamos conseguir!"
+    },
+  },
+  "127": {
+    "rota": "",
+    "background": "bg_torrinha.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Certo, hoje vamos fazer uma oficina de cartazes para a manifestação. Todo mundo pronto?"
+    },
+  },
+  "128": {
+    "rota": "",
+    "background": "bg_torrinha.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Para isso, vamos usar itens que representam a Torrinha e o curso."
+    },
+  },
+  "129": {
+    "rota": "",
+    "background": "bg_torrinha.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#t#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Então, precisamos coletar o máximo de coisas possíveis para fazer a divulgação!"
+    },
+  },
+  "130": {
+    "rota": "",
+    "background": "bg_torrinha.png",
+    "chars": {
+      "personagem": {
+        "flags": "#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#t#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Você vai participar, né, [Pessoa]?"
+    },
+  },
+  "131": {
+    "rota": "",
+    "background": "bg_torrinha.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t#s",
+      },
+      "gisele": {
+        "flags": "#s"
+      },
+      "nina": {
+        "flags": "#s"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Claro que sim!"
+    },
+  },
+  "132": {
+    "rota": "gtg",
+    "background": "escuro.png",
+    "chars": {},
+    "fala": {
+      "type": "t",
+      "fala": "Era para redirecionar para o jogo, se não for, pressione Seguinte novamente"
+    }
+  },
+  "133": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {},
+    "fala": {
+      "type": "t",
+      "fala": "[Três meses depois]",
+    },
+  },
+  "134": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Nem posso acreditar como nossas manifestações deram certo!",
+    },
+  },
+  "135": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Com a divulgação, muitas pessoas concordaram a nossa causa.",
+    },
+  },
+  "136": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Vários professores, coordenadores, e claro, muitos alunos aderiram ao nosso protesto em favor da Torrinha. O CH2 ficou cheio esse dia.",
+    },
+  },
+  "137": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Felizmente a reitoria entendeu os nossos motivos e voltaram atrás no fechamento da Torrinha.",
+    },
+  },
+  "138": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Ela será reformada e transformada em um pequeno museu do curso de Psicologia",
+    },
+  },
+  "139": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Contando a história de como os alunos e professores criaram tudo o que o curso é até hoje.",
+    },
+  },
+  "140": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Já o CA e os alunos ganharão um novo espaço no bloco, mas ainda está em estudo como será feito.",
+    },
+  },
+  "141": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Todos estão bem animados...",
+    },
+  },
+  "142": {
+    "rota": "",
+    "background": "escuro.png",
+    "chars": {
+      "personagem": {
+        "flags": "#t"
+      }
+    },
+    "fala": {
+      "type": "t",
+      "fala": "Agora que concluiu essa rota, por que não tentar outras? Ou então descobrir você mesmo o bloco onde estuda?",
+    },
+  },
+}

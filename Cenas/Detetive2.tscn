@@ -1,0 +1,197 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://Scripts-C/Detetive2.gd" type="Script" id=1]
+[ext_resource path="res://Imagens/Backgrounds/Detetive/Quadro02.png" type="Texture" id=2]
+[ext_resource path="res://Imagens/Objetos/Detetive/fundo ícones.png" type="Texture" id=3]
+[ext_resource path="res://Cenas/MenuSup2.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Imagens/Objetos/Detetive/fundo voltar e seguinte.png" type="Texture" id=5]
+[ext_resource path="res://Imagens/Botoes/seguinte.png" type="Texture" id=6]
+[ext_resource path="res://Imagens/Botoes/seguinte_c.png" type="Texture" id=7]
+[ext_resource path="res://Imagens/Botoes/seguinte_h.png" type="Texture" id=8]
+[ext_resource path="res://Imagens/Objetos/Detetive/frase.png" type="Texture" id=9]
+[ext_resource path="res://Imagens/Objetos/Detetive/DreamCatcher.png" type="Texture" id=10]
+[ext_resource path="res://Cenas/Mochila.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Imagens/Backgrounds/caixa.png" type="Texture" id=12]
+[ext_resource path="res://Fontes/FontGodot/Titulo Disciplina.tres" type="DynamicFont" id=13]
+[ext_resource path="res://Fontes/FontGodot/Info Disciplina 2.tres" type="DynamicFont" id=14]
+[ext_resource path="res://Imagens/Botoes/nãofechar_c.png" type="Texture" id=15]
+[ext_resource path="res://Imagens/Botoes/nãofechar_h.png" type="Texture" id=16]
+[ext_resource path="res://Fontes/FontData/Roboto Light.tres" type="DynamicFontData" id=17]
+
+[sub_resource type="DynamicFont" id=1]
+size = 27
+font_data = ExtResource( 17 )
+
+[node name="Detetive2" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Interior1" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="fundo ícones" type="TextureRect" parent="."]
+margin_left = 1272.0
+margin_top = 32.0
+margin_right = 2022.0
+margin_bottom = 145.0
+rect_scale = Vector2( 0.81, 1 )
+texture = ExtResource( 3 )
+
+[node name="Opcoes" parent="." instance=ExtResource( 4 )]
+
+[node name="Fundo V" type="TextureRect" parent="."]
+margin_left = 42.0
+margin_top = 458.0
+margin_right = 175.0
+margin_bottom = 680.0
+rect_scale = Vector2( 1.15, 1.15 )
+texture = ExtResource( 5 )
+
+[node name="Voltar" type="TextureButton" parent="."]
+margin_left = 164.0
+margin_top = 490.0
+margin_right = 417.0
+margin_bottom = 968.0
+rect_scale = Vector2( -0.4, 0.4 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 7 )
+texture_hover = ExtResource( 8 )
+
+[node name="Fundo S" type="TextureRect" parent="."]
+margin_left = 1724.0
+margin_top = 458.0
+margin_right = 1857.0
+margin_bottom = 680.0
+rect_scale = Vector2( 1.15, 1.15 )
+texture = ExtResource( 5 )
+
+[node name="Seguinte" type="TextureButton" parent="."]
+margin_left = 1756.0
+margin_top = 490.0
+margin_right = 2009.0
+margin_bottom = 968.0
+rect_scale = Vector2( 0.4, 0.4 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 7 )
+texture_hover = ExtResource( 8 )
+
+[node name="Frase" type="TextureButton" parent="."]
+margin_left = 309.735
+margin_top = 299.995
+margin_right = 1212.73
+margin_bottom = 924.995
+rect_scale = Vector2( 0.4, 0.4 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 9 )
+
+[node name="DreamCatcher" type="TextureButton" parent="."]
+margin_left = 837.648
+margin_top = -5.84405
+margin_right = 3208.65
+margin_bottom = 2254.16
+rect_scale = Vector2( 0.08, 0.08 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 10 )
+
+[node name="Mochila" parent="." instance=ExtResource( 11 )]
+
+[node name="Popup1" type="Popup" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Fundo" type="TextureRect" parent="Popup1"]
+margin_left = 619.565
+margin_top = 155.625
+margin_right = 1273.56
+margin_bottom = 827.625
+texture = ExtResource( 12 )
+
+[node name="Titulo" type="Label" parent="Popup1"]
+margin_left = 854.471
+margin_top = 179.116
+margin_right = 1023.47
+margin_bottom = 236.116
+custom_fonts/font = ExtResource( 13 )
+text = "FRASE"
+
+[node name="Imagem" type="TextureRect" parent="Popup1"]
+margin_left = 764.0
+margin_top = 208.0
+margin_right = 1667.0
+margin_bottom = 833.0
+rect_scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 9 )
+
+[node name="Frase" type="Label" parent="Popup1"]
+margin_left = 656.67
+margin_top = 442.032
+margin_right = 1251.67
+margin_bottom = 682.032
+custom_fonts/font = ExtResource( 14 )
+text = "Expressão popular que pode ou não ter um significado literal, muito utilizado pelos alunos nos locais do Bloco de Psicologia, principalmente no Centro Acadêmico."
+autowrap = true
+
+[node name="Fechar" type="TextureButton" parent="Popup1"]
+margin_left = 741.561
+margin_top = 694.796
+margin_right = 1153.56
+margin_bottom = 782.796
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 15 )
+texture_hover = ExtResource( 16 )
+
+[node name="Popup2" type="Popup" parent="."]
+visible = true
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Fundo" type="TextureRect" parent="Popup2"]
+margin_left = 619.565
+margin_top = 155.625
+margin_right = 1273.56
+margin_bottom = 827.625
+texture = ExtResource( 12 )
+
+[node name="Titulo" type="Label" parent="Popup2"]
+margin_left = 745.909
+margin_top = 180.786
+margin_right = 1177.91
+margin_bottom = 237.786
+custom_fonts/font = ExtResource( 13 )
+text = "FILTRO DOS SONHOS"
+
+[node name="Imagem" type="TextureRect" parent="Popup2"]
+margin_left = 845.554
+margin_top = 244.981
+margin_right = 3216.55
+margin_bottom = 2504.98
+rect_scale = Vector2( 0.08, 0.08 )
+texture = ExtResource( 10 )
+
+[node name="Frase" type="Label" parent="Popup2"]
+margin_left = 657.0
+margin_top = 446.715
+margin_right = 1252.0
+margin_bottom = 643.715
+custom_fonts/font = SubResource( 1 )
+text = "Esse objeto retrata um amuleto da cultura indígena que tem o poder de purificar as energias, separando \"sonhos negativos\" dos \"sonhos positivos\", posto no C.A de Psicologia para trazer um local de paz e descontração"
+autowrap = true
+
+[node name="Fechar" type="TextureButton" parent="Popup2"]
+margin_left = 741.561
+margin_top = 694.796
+margin_right = 1153.56
+margin_bottom = 782.796
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 15 )
+texture_hover = ExtResource( 16 )
+[connection signal="pressed" from="Voltar" to="." method="_on_TextureButton_pressed"]
+[connection signal="pressed" from="Seguinte" to="." method="_on_Seguinte_pressed"]
+[connection signal="pressed" from="Frase" to="." method="_on_Frase_pressed"]
+[connection signal="pressed" from="DreamCatcher" to="." method="_on_DreamCatcher_pressed"]

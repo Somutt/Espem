@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Lady-Gaga-Bad-Romance-_Instrumental_.ogg-39d378372e30ad79ee5395333319ab83.oggstr"
+
+[deps]
+
+source_file="res://SFX/Lady-Gaga-Bad-Romance-_Instrumental_.ogg"
+dest_files=[ "res://.import/Lady-Gaga-Bad-Romance-_Instrumental_.ogg-39d378372e30ad79ee5395333319ab83.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

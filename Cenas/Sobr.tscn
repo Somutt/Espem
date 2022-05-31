@@ -1,0 +1,146 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Scripts-C/Sobr.gd" type="Script" id=1]
+[ext_resource path="res://Imagens/Backgrounds/background.png" type="Texture" id=2]
+[ext_resource path="res://Imagens/Grid 12.png" type="Texture" id=3]
+[ext_resource path="res://Imagens/Backgrounds/card opcoes.png" type="Texture" id=4]
+[ext_resource path="res://Fontes/FontGodot/Titulo Cena.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Fontes/FontGodot/Sobre.tres" type="DynamicFont" id=6]
+[ext_resource path="res://Fontes/FontGodot/Sobre Bold.tres" type="DynamicFont" id=7]
+[ext_resource path="res://Imagens/Objetos/ufc.png" type="Texture" id=8]
+[ext_resource path="res://Imagens/Objetos/smd.png" type="Texture" id=9]
+[ext_resource path="res://Imagens/Botoes/seguinte.png" type="Texture" id=10]
+[ext_resource path="res://Imagens/Botoes/seguinte_c.png" type="Texture" id=11]
+[ext_resource path="res://Imagens/Botoes/seguinte_h.png" type="Texture" id=12]
+
+[node name="Sobre" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 1920.0
+margin_bottom = 1080.0
+texture = ExtResource( 2 )
+
+[node name="Grid 12" type="TextureRect" parent="."]
+visible = false
+margin_right = 1920.0
+margin_bottom = 1080.0
+texture = ExtResource( 3 )
+
+[node name="Fundo Card" type="TextureRect" parent="."]
+margin_left = 344.0
+margin_top = 102.0
+margin_right = 1448.0
+margin_bottom = 896.0
+rect_scale = Vector2( 1.116, 1.1 )
+texture = ExtResource( 4 )
+
+[node name="Sobre" type="Label" parent="."]
+margin_left = 856.0
+margin_top = 166.0
+margin_right = 1064.0
+margin_bottom = 262.0
+custom_fonts/font = ExtResource( 5 )
+custom_colors/font_color = Color( 0.878431, 0.321569, 0.388235, 1 )
+text = "Sobre"
+
+[node name="Texto Volume" type="Label" parent="."]
+margin_left = 414.0
+margin_top = 290.0
+margin_right = 1510.0
+margin_bottom = 563.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Trabalho desenvolvido pela equipe Sanfoka para a disciplina de Projeto Integrado I do curso de Sistemas e Mídias Digitais.
+
+O projeto foi criado para auxiliar estudantes dos primeiros semestres do curso de Psicologia da UFC a terem mais informações, de forma acessível, sobre a graduação que fazem na universidade."
+autowrap = true
+
+[node name="Equipe" type="Label" parent="."]
+margin_left = 414.0
+margin_top = 595.0
+margin_right = 518.0
+margin_bottom = 638.0
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Equipe"
+
+[node name="Texto Equipe" type="Label" parent="."]
+margin_left = 414.0
+margin_top = 645.0
+margin_right = 671.0
+margin_bottom = 872.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Carlos Humberto
+Daniela R. Felix
+José Guilherme
+Matheus Abreu
+Samuel Moura"
+
+[node name="Cliente" type="Label" parent="."]
+margin_left = 704.0
+margin_top = 595.0
+margin_right = 811.0
+margin_bottom = 638.0
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Cliente"
+
+[node name="Texto Cliente" type="Label" parent="."]
+margin_left = 704.0
+margin_top = 645.0
+margin_right = 873.0
+margin_bottom = 688.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Erica Atem"
+
+[node name="Profs" type="Label" parent="."]
+margin_left = 704.0
+margin_top = 720.0
+margin_right = 881.0
+margin_bottom = 763.0
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Professores"
+
+[node name="Texto Profs" type="Label" parent="."]
+margin_left = 704.0
+margin_top = 771.0
+margin_right = 965.0
+margin_bottom = 860.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 0.0745098, 0.160784, 0.239216, 1 )
+text = "Paulo Filho
+Adannick Fontes"
+
+[node name="ufc" type="TextureRect" parent="."]
+margin_left = 1013.0
+margin_top = 615.0
+margin_right = 1989.0
+margin_bottom = 1871.0
+rect_scale = Vector2( 0.193, 0.193 )
+texture = ExtResource( 8 )
+
+[node name="smd" type="TextureRect" parent="."]
+margin_left = 1233.0
+margin_top = 615.0
+margin_right = 2633.0
+margin_bottom = 2015.0
+rect_scale = Vector2( 0.173, 0.173 )
+texture = ExtResource( 9 )
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 164.0
+margin_top = 478.0
+margin_right = 417.0
+margin_bottom = 956.0
+rect_scale = Vector2( -0.4, 0.4 )
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 10 )
+texture_pressed = ExtResource( 11 )
+texture_hover = ExtResource( 12 )
+[connection signal="pressed" from="TextureButton" to="." method="_on_TextureButton_pressed"]

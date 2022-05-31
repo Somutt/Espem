@@ -1,0 +1,135 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://Scripts-C/MenuI.gd" type="Script" id=1]
+[ext_resource path="res://Imagens/Backgrounds/bg-8.png" type="Texture" id=2]
+[ext_resource path="res://Scripts-C/global.gd" type="Script" id=3]
+[ext_resource path="res://Imagens/Objetos/logo.png" type="Texture" id=4]
+[ext_resource path="res://Imagens/Botoes/Ativo 2.png" type="Texture" id=5]
+[ext_resource path="res://Imagens/Botoes/Ativo 3.png" type="Texture" id=6]
+[ext_resource path="res://Imagens/Botoes/SAIRMenu.png" type="Texture" id=7]
+[ext_resource path="res://Imagens/Botoes/SAIR mouseover.png" type="Texture" id=8]
+[ext_resource path="res://Imagens/Botoes/sobre.png" type="Texture" id=9]
+[ext_resource path="res://Imagens/Botoes/SOBRE mousever.png" type="Texture" id=10]
+[ext_resource path="res://Imagens/Botoes/opcoes.png" type="Texture" id=11]
+[ext_resource path="res://Imagens/Botoes/opçoes mouseover.png" type="Texture" id=12]
+[ext_resource path="res://Imagens/Backgrounds/caixa.png" type="Texture" id=13]
+[ext_resource path="res://Imagens/Textos/nãotexto.png" type="Texture" id=14]
+[ext_resource path="res://Imagens/Botoes/não.png" type="Texture" id=15]
+[ext_resource path="res://Imagens/Botoes/nãoOver.png" type="Texture" id=16]
+[ext_resource path="res://Imagens/Botoes/Sim.png" type="Texture" id=17]
+[ext_resource path="res://Imagens/Botoes/simOver.png" type="Texture" id=18]
+
+[node name="MenuI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+script = ExtResource( 3 )
+
+[node name="Logo" type="TextureRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 402.5
+margin_top = 60.0
+margin_right = -402.5
+margin_bottom = -479.0
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Iniciar" type="TextureButton" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 849.0
+margin_top = 724.0
+margin_right = -849.0
+margin_bottom = -310.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+
+[node name="Sair" type="TextureButton" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 899.0
+margin_top = 947.0
+margin_right = -899.0
+margin_bottom = -87.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 7 )
+texture_hover = ExtResource( 8 )
+
+[node name="Sobre" type="TextureButton" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 874.0
+margin_top = 883.0
+margin_right = -876.0
+margin_bottom = -150.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 9 )
+texture_hover = ExtResource( 10 )
+
+[node name="Opcoes" type="TextureButton" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 856.0
+margin_top = 802.0
+margin_right = -856.0
+margin_bottom = -217.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 11 )
+texture_hover = ExtResource( 12 )
+
+[node name="Popup" type="Popup" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="Popup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.333333, 0.333333, 0.333333, 0.556863 )
+
+[node name="Caixa" type="TextureRect" parent="Popup"]
+margin_left = 634.418
+margin_top = 206.438
+margin_right = 1288.42
+margin_bottom = 878.438
+texture = ExtResource( 13 )
+
+[node name="Texto" type="TextureRect" parent="Popup/Caixa"]
+margin_left = 35.2455
+margin_top = 148.534
+margin_right = 638.245
+margin_bottom = 362.534
+texture = ExtResource( 14 )
+
+[node name="Button" type="TextureButton" parent="Popup/Caixa"]
+margin_left = 387.46
+margin_top = 461.291
+margin_right = 538.46
+margin_bottom = 541.291
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 15 )
+texture_hover = ExtResource( 16 )
+
+[node name="Button2" type="TextureButton" parent="Popup/Caixa"]
+margin_left = 115.566
+margin_top = 461.291
+margin_right = 266.566
+margin_bottom = 541.291
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource( 17 )
+texture_hover = ExtResource( 18 )
+
+[connection signal="pressed" from="Iniciar" to="." method="_on_Iniciar_pressed"]
+[connection signal="pressed" from="Sair" to="." method="_on_Sair_pressed"]
+[connection signal="pressed" from="Sobre" to="." method="_on_Sobre_pressed"]
+[connection signal="pressed" from="Opcoes" to="." method="_on_Opcoes_pressed"]
+[connection signal="pressed" from="Popup/Caixa/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Popup/Caixa/Button2" to="." method="_on_Button2_pressed"]
